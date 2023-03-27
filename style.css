@@ -116,6 +116,23 @@ section p {
   font-size: 18px;
 }
 
+#photoLine img{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 10%;
+	padding: 5px;
+}
+
+.row{
+	display: flex;
+}
+
+.column1{
+	flex: 50%;
+	padding: 5px;
+}
+
 /* Contact Section Styles */
 
 #contact {
